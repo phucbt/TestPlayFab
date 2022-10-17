@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "{0B6C8850-4536-BB58-E841-D69AB88BFC24}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TestPlayFab",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "PlayFab",
