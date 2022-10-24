@@ -8,7 +8,7 @@ public class TestPlayFab : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PlayFabGSDK" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
